@@ -43,9 +43,10 @@ def hangman():
             print(f"❌ Wrong guess! Attempts left: {attempts}\n")
 
     else:
-        print(f"\n💀 Game Over! The word was: {word}")
+        print(f"\n Game Over! The word was: {word}")
 
 # Run the gamea
 
 if __name__ == "__main__":
+
     hangman()
